@@ -1,0 +1,130 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 90px;
+    padding-top: 130px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left h1{
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 80px;
+    padding-top: 30px;
+}
+#bottom-left{
+    height: 45%;
+    width: 100%;
+    /* background-color:yellow ; */
+}
+#color{
+    display: flex;
+    /* background-color: blue; */
+    padding: 10px 15px;
+    width: fit-content;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 45%;
+}
+#color h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color:yellow;
+    border-radius: 50%;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+p{
+    width: 70%;
+}
+
+#right{
+    height: 100%;
+    width: 40%;
+    /* background-color:red; */
+    margin-right: 80px;
+    position: relative;
+}
+#right-nav{
+    /* background-color: pink; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#right-corner{
+    display: flex;
+    gap: 2px;
+    /* margin: 2px; */
+}
+#right-nav h3{
+    /* background-color: #fff; */
+    font-weight: 500;
+}
+#right-corner h5{
+    margin-right: 5px;
+    font-weight: 500;
+}
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+#black-gola{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -13%;
+    top: 30%;
+
+}
+#rotated h4{
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    font-weight: 500;
+    font-size: 40px;
+    rotate: -90deg;
+    transform-origin: 0 0;
+}
